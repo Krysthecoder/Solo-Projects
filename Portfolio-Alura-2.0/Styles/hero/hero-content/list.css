@@ -1,0 +1,27 @@
+.hero__list{
+    display: flex;
+    font-size: 1.3rem;
+    width: 30vw;
+    justify-content: space-between;
+}
+.herolist__arrow{
+    margin-left: .5rem;
+}
+
+/* this is for smartphone/small devices */
+@media screen and (min-device-width: 798px) and (max-width: 1200px){
+    .hero__list{
+        display: flex;
+        font-size: 1rem;
+        width: 30vw;
+        justify-content: space-between;
+    }
+}
+
+
+/* this is for smartphone/small devices */
+@media screen and (min-device-width: 320px) and (max-width: 797px){
+    .hero__list{
+        width: 100%;
+    }
+}

@@ -1,0 +1,23 @@
+.list-item__picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30%;
+    width: 35px;
+    height: 35px;
+}
+
+/* this is for tablet/medium devices */
+@media screen and (min-device-width: 798px) and (max-width: 1200px){
+    .list-item__picture{
+        margin-top: 12%;
+    }
+}
+
+
+/* this is for smartphone/small devices */
+@media screen and (min-device-width: 320px) and (max-width: 797px){
+    .list-item__picture{
+        margin-top: 5%;
+    }
+}

@@ -1,0 +1,22 @@
+.hero{
+    display: flex;
+    margin-top: 10rem;
+}
+
+/* this is for smartphone/small devices */
+@media screen and (min-device-width: 798px) and (max-width: 1200px){
+    .hero{
+        margin: 2rem 10vw 0 10vw;
+    }
+}
+
+
+/* this is for smartphone/small devices */
+@media screen and (min-device-width: 320px) and (max-width: 797px){
+    .hero{
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 1rem;
+        margin: 2rem 10vw 0 10vw;
+    }
+}

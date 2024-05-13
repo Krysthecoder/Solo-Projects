@@ -1,0 +1,22 @@
+.hero__picture{
+    border-radius: 50%;
+    width: 25vw;
+}
+
+/* this is for smartphone/small devices */
+@media screen and (min-device-width: 798px) and (max-width: 1200px){
+    .hero__picture{
+        width: 25%;
+    }
+}
+
+
+/* this is for smartphone/small devices */
+@media screen and (min-device-width: 320px) and (max-width: 797px){
+    .hero__picture{
+        order: 1;
+        display: block;
+        margin: 2rem auto 2rem auto;
+        width: 50%;
+    }
+}

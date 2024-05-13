@@ -1,0 +1,19 @@
+.skill__list, .hobbies__list{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* this is for tablet/medium devices */
+@media screen and (min-device-width: 798px) and (max-width: 1200px){
+    .skill__list, .hobbies__list{
+        flex-wrap: wrap;
+    }
+}
+
+
+/* this is for smartphone/small devices */
+@media screen and (min-device-width: 320px) and (max-width: 797px){
+    .skill__list, .hobbies__list{
+        flex-wrap: wrap;
+    }
+}

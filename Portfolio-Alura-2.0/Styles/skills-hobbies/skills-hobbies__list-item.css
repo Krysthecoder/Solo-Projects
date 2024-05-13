@@ -1,0 +1,26 @@
+.list__item{
+    width: 160px;
+    height: 160px;
+    background-color: #ffffff;
+    transition: 1s all;
+    border-radius: 15px;
+    margin-right: 1rem;
+}
+
+
+/* this is for tablet/medium devices */
+@media screen and (min-device-width: 798px) and (max-width: 1200px){
+    .list__item{
+        width: 230px;
+        height: 160px;
+    }
+}
+
+
+/* this is for smartphone/small devices */
+@media screen and (min-device-width: 320px) and (max-width: 797px){
+    .list__item{
+        width: 160px;
+        height: 160px;
+    }
+}

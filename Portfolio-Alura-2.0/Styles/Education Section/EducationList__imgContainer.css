@@ -1,0 +1,37 @@
+.Educationlist__ImgContainter{
+    background-color: #ffffff;
+    text-align: center;
+    width: 25vw;
+    height: 280px;
+}
+.Education__Img{
+    width: 190px;
+    height: auto;
+    padding-top: 10%;
+}
+
+/* this is for tablet/medium devices */
+@media screen and (min-device-width: 798px) and (max-width: 1200px){
+    .Educationlist__ImgContainter{
+        height: auto;
+    }
+    .Education__Img{
+        width: 140px;
+        padding-bottom: 1rem;
+    }
+}
+
+
+/* this is for smartphone/small devices */
+@media screen and (min-device-width: 320px) and (max-width: 797px){
+    .Educationlist__ImgContainter{
+        width: 95vw;
+        height: auto;
+    }
+    .Education__Img{
+        width: 120px;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 1rem;
+    }
+}

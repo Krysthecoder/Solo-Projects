@@ -1,0 +1,18 @@
+.Coding-Experience__Container{
+    padding-top: 5rem;
+    justify-content: center;
+
+}
+.Coding-Experience__Container h2{
+    margin-bottom: 3rem;
+}
+.Coding-Experience__description{
+    font-weight: 400;
+    font-size: 1rem;
+    width: auto;
+    margin: auto;
+    padding-bottom: 1.5rem;
+}
+
+
+

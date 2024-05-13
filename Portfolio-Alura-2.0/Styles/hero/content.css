@@ -1,0 +1,23 @@
+.hero__content{
+    width: 60vw;
+    margin-top: 15vh;
+    margin-right: 5rem;
+}
+
+/* this is for smartphone/small devices */
+@media screen and (min-device-width: 798px) and (max-width: 1200px){
+    .hero__content{
+        margin-top: 5vh;
+        margin-right: 2rem;
+    }
+}
+
+
+/* this is for smartphone/small devices */
+@media screen and (min-device-width: 320px) and (max-width: 797px){
+    .hero__content{
+        order: 2;
+        width: 100%;
+        margin-top: 1rem;
+    }
+}

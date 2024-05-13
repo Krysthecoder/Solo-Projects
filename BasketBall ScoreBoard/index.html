@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Silkscreen&display=swap" rel="stylesheet">
+    <title>BastketBall ScoreBoard</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="sub-container">
+            <h1 class="team-title">Home</h1>
+            <p class="score-content" id="homeScore">0</p>
+            <div class="button-container">
+                <button class="action-button" onclick="scoreHome1()">+1</button>
+                <button class="action-button" onclick="scoreHome2()">+2</button>
+                <button class="action-button" onclick="scoreHome3()">+3</button>
+                <button class="action-button" onclick="reset()">Reset</button>
+            </div>
+        </div>
+        <div class="sub-container">
+            <h1 class="vs-sections">VS</h1>
+        </div>
+        <div class="sub-container">
+            <h1 class="team-title">Guest</h1>
+            <p class="score-content" id="guestScore">0</p>
+            <div class="button-container">
+                <button class="action-button" onclick="scoreGuest1()">+1</button>
+                <button class="action-button" onclick="scoreGuest2()">+2</button>
+                <button class="action-button" onclick="scoreGuest3()">+3</button>
+                <button class="action-button" onclick="resetGuest()">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

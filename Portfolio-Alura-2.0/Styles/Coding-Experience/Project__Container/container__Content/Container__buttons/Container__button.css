@@ -1,0 +1,46 @@
+.project__button{
+    padding: 16px;
+    border: solid #2a7ae4;
+    font-size: 1em;
+    font-weight: 400;
+    width: 120px;
+    border-radius: 5px;
+    transition: .4s;
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+}
+.project__button:hover{
+    cursor: pointer;
+    scale: 1.20;
+}
+.project__button a{
+    color: #2a7ae4
+}
+.button-right{
+    background-color: #2a7ae4;
+    margin-left: 30px;
+}
+.button-right{
+    color: #ffffff;
+}
+
+/* this is for tablet/medium devices */
+@media screen and (min-device-width: 798px) and (max-width: 1200px){
+    .project__button{
+        padding: 10px;
+        font-size: 1rem;
+        width: auto;
+        margin: 1.2rem;
+    }
+}
+
+
+/* this is for smartphone/small devices */
+@media screen and (min-device-width: 320px) and (max-width: 797px){
+    .project__button{
+        padding: 10px;
+        font-size: 1rem;
+        width: auto;
+        margin: 1.2rem;
+    }
+}

@@ -1,0 +1,99 @@
+body{
+    font-family: 'Inter', sans-serif;
+    color: #464646;
+    background-color: #F5F5F5;
+    overflow-x: hidden;
+    font-size: 16px;
+    text-align: center;
+}
+h1{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+h3{
+    font-size: 1rem;
+    font-weight: 700;
+}
+a:link, a:visited{
+    text-decoration: none;    
+    color: #464646;
+}
+.container{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 2.5rem;
+}
+
+.container--backgroundcolor{
+    background-color: #EAF2FD;
+}
+
+/* this sections remoes the scrollbar but keep the scrolling functionality */
+body::-webkit-scrollbar {
+    display: none;
+}
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+/* end of hidding the scrollbar functionality */
+
+
+
+/* this is for the HR  lines styles */
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin: 5rem 0 5rem 0;
+}
+
+/* this is for tablet/medium devices */
+@media screen and (min-device-width: 798px) and (max-width: 1200px){
+    .container{
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-top: 2.5rem;
+    }
+    h1{
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    h2{
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    h3{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+}
+
+
+/* this is for smartphone/small devices */
+@media screen and (min-device-width: 320px) and (max-width: 797px){
+    .container{
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-top: 2.5rem;
+    }
+    h1{
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    h2{
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    h3{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+}
+
+
+/* this is for smartphone/small devices */

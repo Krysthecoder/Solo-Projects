@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.cdnfonts.com/css/calculator" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">    
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator-body">
+        <div class="body-screens">
+            <div class="screen1">
+                <p id="screen1"></p>
+            </div>
+            <div class="screen2">
+                <p id="screen2"></p>
+            </div>
+        </div>
+        <div class="calculator-buttons">
+            <div class="buttons_numerics">
+                <button onclick="addScreen(1)">1</button>
+                <button onclick="addScreen(2)">2</button>
+                <button onclick="addScreen(3)">3</button>
+                <button onclick="addScreen(4)">4</button>
+                <button onclick="addScreen(5)">5</button>
+                <button onclick="addScreen(6)">6</button>
+                <button onclick="addScreen(7)">7</button>
+                <button onclick="addScreen(8)">8</button>
+                <button onclick="addScreen(9)">9</button>
+                <button onclick="reset()">C</button>
+                <button onclick="addScreen(0)">0</button>
+                <button onclick="test()">=</button>
+            </div>
+            <div class="buttons_operators">
+                <button onclick="addOperator(2)">X</button>
+                <button onclick="addOperator(3)">/</button>
+                <button onclick="addOperator(0)">+</button>
+                <button onclick="addOperator(1)">-</button>
+            </div>
+                
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

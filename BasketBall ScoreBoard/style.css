@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+.main-container{
+    background-color: rgb(87, 87, 87);
+    padding: 100px;
+    margin: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sub-container{
+    width: 35%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h1 p{
+    width: 100%;
+}
+.score-content{
+    color: red;
+    font-size: 70px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Silkscreen', sans-serif;
+    background-color: black;
+    height: 80px;
+    width: 90%;
+    padding-left: 20%;
+}
+.team-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.vs-sections{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.action-button{
+    height: 30px;
+    border-radius: 20px;
+}

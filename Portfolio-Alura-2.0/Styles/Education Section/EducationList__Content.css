@@ -1,0 +1,46 @@
+.EducationList__Content{
+    padding-top: 1rem;
+}
+.EducationList__title{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+.EducationList__Description{
+    font-weight: 500;
+}
+
+/* this is for tablet/medium devices */
+@media screen and (min-device-width: 798px) and (max-width: 1200px){
+    .EducationList__Content{
+        padding-top: 1rem;
+    }
+    .EducationList__title{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
+    }
+    .EducationList__Description{
+        font-weight: 500;
+        font-size: .8rem;
+    }
+}
+
+
+/* this is for smartphone/small devices */
+@media screen and (min-device-width: 320px) and (max-width: 797px){
+    .EducationList__Content{
+        padding-top: 1rem;
+        margin-bottom: 3rem;
+        width: 100%;
+        text-align: center;
+    }
+    .EducationList__title{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
+    }
+    .EducationList__Description{
+        font-weight: 500;
+    }
+}

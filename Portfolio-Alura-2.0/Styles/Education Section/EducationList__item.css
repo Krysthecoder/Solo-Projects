@@ -1,0 +1,21 @@
+.EducationList__item{
+    width: 25vw;
+    height: auto;
+    text-align: justify;
+}
+
+
+/* this is for tablet/medium devices */
+@media screen and (min-device-width: 798px) and (max-width: 1200px){
+    .EducationList__item{
+        width: 90vw;
+    }
+}
+
+
+/* this is for smartphone/small devices */
+@media screen and (min-device-width: 320px) and (max-width: 797px){
+    .EducationList__item{
+        width: 90vw;
+    }
+}

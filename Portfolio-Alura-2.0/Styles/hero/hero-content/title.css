@@ -1,0 +1,23 @@
+.herocontent__title{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+/* this is for smartphone/small devices */
+@media screen and (min-device-width: 798px) and (max-width: 1200px){
+    .herocontent__title{
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+        font-weight: bold;
+    }
+}
+
+
+/* this is for smartphone/small devices */
+@media screen and (min-device-width: 320px) and (max-width: 797px){
+    .herocontent__title{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}

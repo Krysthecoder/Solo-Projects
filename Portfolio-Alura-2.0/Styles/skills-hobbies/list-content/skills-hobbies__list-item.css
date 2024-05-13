@@ -1,0 +1,33 @@
+.list__item{
+    width: 160px;
+    height: 160px;
+    background-color: #ffffff;
+    transition: 1s all;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+.list__item:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 30px;
+    scale: 1.2;
+}
+
+
+
+/* this is for tablet/medium devices */
+@media screen and (min-device-width: 798px) and (max-width: 1200px){
+    .list__item{
+        width: 250px;
+        height: 120px;
+        margin-right: 0;
+    }
+}
+
+
+/* this is for smartphone/small devices */
+@media screen and (min-device-width: 320px) and (max-width: 797px){
+    .list__item{
+        width: 300px;
+        height: 100px;
+    }
+}

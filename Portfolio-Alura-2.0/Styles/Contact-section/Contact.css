@@ -1,0 +1,11 @@
+.contact{
+    display: flex;
+    margin-top: 5rem;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 2.5rem;
+    padding-bottom: 5rem;
+    justify-content: center;
+    align-items: start;
+}
+

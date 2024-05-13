@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 2.5rem;
+}
+.icon__text{
+    font-size: 1.5rem;
+}
+
+/* this is for tablet/medium devices */
+@media screen and (min-device-width: 798px) and (max-width: 1200px){
+    header{
+        font-size: 1.50rem;
+        margin: 3rem 10vw 0 10vw;
+    }
+    .icon__text{
+        font-size: 1.8rem;
+    }
+}
+
+
+/* this is for smartphone/small devices */
+@media screen and (min-device-width: 320px) and (max-width: 797px){
+    header{
+        margin: 3rem 10vw 0 10vw;
+    }
+    .icon__text{
+        font-size: 1.25rem;
+    }
+}

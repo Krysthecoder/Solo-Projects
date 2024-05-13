@@ -1,0 +1,15 @@
+.Educations__list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+
+/* this is for smartphone/small devices */
+@media screen and (min-device-width: 320px) and (max-width: 797px){
+    .Educations__list{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+}

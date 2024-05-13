@@ -1,0 +1,32 @@
+.main--container{
+    width: 700px;
+    height: auto;
+    background-color: black;
+    margin: 200px auto;
+}
+.input--container, .output--container{
+    width: 100%;
+}
+textarea{
+    width: 80%;
+    margin: 2rem 3.5rem;
+    height: 6rem;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+.options--container{
+    width: 100%;
+}
+button{
+    width: 30%;
+    height: 3rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    margin: 2rem 2.5rem;
+}
+select{
+    height: 2rem;
+    border: solid white;
+    background-color: black;
+    color: white;
+}

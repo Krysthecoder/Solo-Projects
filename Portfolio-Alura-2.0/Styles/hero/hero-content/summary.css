@@ -1,0 +1,23 @@
+.herocontent__summary{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+
+/* this is for smartphone/small devices */
+@media screen and (min-device-width: 798px) and (max-width: 1200px){
+    .herocontent__summary{
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+
+/* this is for smartphone/small devices */
+@media screen and (min-device-width: 320px) and (max-width: 797px){
+    .herocontent__summary{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}

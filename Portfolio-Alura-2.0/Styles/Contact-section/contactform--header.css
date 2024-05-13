@@ -1,0 +1,30 @@
+.contactform__title{
+    margin: 1rem 0 2rem 0;
+}
+
+.contactform__description, .contactform__description br{
+    margin: 0rem 0 2.5rem 0;
+}
+
+/* this is for tablet/medium devices */
+@media screen and (min-device-width: 798px) and (max-width: 1200px){
+    .contactform__title{
+        margin: 1rem 0 1.5rem 0;
+    }
+    
+    .contactform__description, .contactform__description br{
+        margin: 0rem 0 .5rem 0;
+    }
+}
+
+
+/* this is for smartphone/small devices */
+@media screen and (min-device-width: 320px) and (max-width: 797px){
+    .contactform__title{
+        margin: 1rem 0 2rem 0;
+    }
+    
+    .contactform__description, .contactform__description br{
+        margin: 1rem 0 2rem 0;
+    }
+}
